@@ -2,8 +2,8 @@ $squareSize: 100px;
 $calendarPadding: 10px;
 $daysInRow: 7;
 $gapValue: 1px;
-$calendarWidth: (
-  $squareSize * $daysInRow + $calendarPadding * 2 + $gapValue * ($daysInRow - 1)
+$calendarWidth: calc(
+  $squareSize * $daysInRow + $gapValue * ($daysInRow - 1) + $calendarPadding * 2
 );
 
 body {
