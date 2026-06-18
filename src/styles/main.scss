@@ -2,7 +2,9 @@ $squareSize: 100px;
 $calendarPadding: 10px;
 $daysInRow: 7;
 $gapValue: 1px;
-$calendarWidth: $squareSize * $daysInRow + $calendarPadding * 2 + $gapValue * ($daysInRow - 1);
+$calendarWidth: (
+  $squareSize * $daysInRow + $calendarPadding * 2 + $gapValue * ($daysInRow - 1)
+);
 
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
